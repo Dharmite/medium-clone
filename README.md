@@ -9,7 +9,7 @@ In this project I created a medium site clone (https://medium.com/). The respons
 * [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 * [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [BEM](http://getbem.com/)
-* [visual studio code](visual studio code)
+* [visual studio code](https://code.visualstudio.com/)
 
 ## Authors
 
