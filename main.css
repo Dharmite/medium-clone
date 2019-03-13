@@ -1,0 +1,399 @@
+/*
+-----------------------------------------------
+
+body
+
+-----------------------------------------------
+*/
+
+body {
+  margin: auto;
+}
+
+p {
+  font-family: "Arial";
+  color: rgba(0,0,0,.54)!important;
+  font-size: 14px;
+}
+
+h1{
+    font-family: "Arial";
+}
+
+h3{
+    font-family: "Arial";
+}
+
+h5{
+    font-family: "Arial";
+}
+
+span{
+
+    color: rgba(0,0,40)!important;
+
+}
+
+/*
+-----------------------------------------------
+
+header
+
+-----------------------------------------------
+*/
+
+/* Block component */
+
+.getStarted {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 75%;
+  margin: auto;
+}
+
+/* Element that depends upon the block */ 
+
+.getStarted__member {
+  margin-top: 25px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+/* Element that depends upon the block */ 
+
+.getStarted__logo {
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* Element that depends upon the block */ 
+
+.getStarted__logo img {
+  margin-top: -10px;
+  height: 85px;
+  width: 140px;
+}
+
+ /* Block component */
+/* Element that depends upon the block */
+
+
+.getStarted__buttons {
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+/* Modifier that changes the style of the block */
+
+.getStarted__buttons--signIn {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Modifier that changes the style of the block */
+
+.getStarted__buttons--signIn a {
+    color: #03a87c;
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+  /* Modifier that changes the style of the block */
+
+.getStarted__buttons--start {
+    display: inline-block;
+  }
+
+.btn {
+  color: #03a87c;
+  border: 1px solid #03a87c;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+
+
+/*
+-----------------------------------------------
+
+nav 
+
+-----------------------------------------------
+*/
+
+.nav {
+  margin-top: -12px;
+  margin-left: 150px;
+}
+
+header ul {
+  padding: 0px;
+}
+
+header li {
+  font-size: 15px;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+header a {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+}
+
+/*
+-----------------------------------------------
+
+main news
+
+-----------------------------------------------
+*/
+
+.mainNews__container {
+  display: grid;
+  grid-template-columns: 1.3fr 1.7fr 1fr;
+  width: 90%;
+  margin: auto;
+  grid-column-gap: 1.5em;
+}
+
+.mainNews__col1 img {
+  width: 100%;
+}
+
+.mainNews__col1--desc {
+  text-align: left;
+  margin-left: 55px;
+}
+
+.mainNews__col1--desc {
+  margin-right: 20px;
+}
+
+.mainNews__col2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.mainNews__col2Row {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 10px;
+}
+
+.mainNews__col2Row img {
+  width: 100%;
+}
+
+.mainNews__col2Row--desc {
+  margin-left: 5px;
+}
+
+.mainNews__col3--desc {
+  text-align: left;
+  height: 30%;
+}
+
+.mainNews__col3 img {
+  width: 100%;
+}
+
+.mainNews__col3--featured{
+
+  display: flex;
+  height: 100%;
+
+}
+
+span.mainNews__col3--text{
+    color: #03a87c !important;
+    justify-content: flex-end;
+    align-self: flex-end
+
+}
+
+/*
+-----------------------------------------------
+
+welcome
+
+-----------------------------------------------
+*/
+
+.welcome {
+
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  grid-template-rows: 320px;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-bottom: 5%;
+  
+}
+
+.welcome__info {
+
+    background: #e8f3ec;
+  
+  }
+  
+  .welcome__info > div {
+  
+    position: relative;
+    top: 70px;
+    left: 20px;
+    margin-right: 15px;
+  
+  }
+
+
+  .btn {
+
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+  
+  }
+  
+  .btn--state-black {
+  
+    color: white;
+    border: 1px solid black;
+  
+    background: rgba(0, 0, 0, 0.84);
+  
+  }
+  
+  .btn--state-white {
+  
+    color: black;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: white;
+    display: inline-block;
+  
+  }
+  
+  .welcome__info--button1 {
+  
+    display: inline-block;
+  
+  }
+  
+  .welcome__info--button2 {
+  
+    display: inline-block;
+  
+  }
+  
+
+.welcome__image {
+
+  background: #e8f3ec;
+
+}
+
+.welcome__image img {
+
+  height: 100%;
+  width: 100%;
+
+}
+
+
+
+/*
+-----------------------------------------------
+
+Members and popular section
+
+-----------------------------------------------
+*/
+
+.membersPopular__container {
+  
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 75%;
+  margin: auto;
+  grid-column-gap: 2em;
+
+}
+
+.membersPopular__members--row {
+  
+  margin-bottom: 3%;
+
+  display: grid;
+  
+  grid-template-columns: 3fr 1fr;
+
+}
+
+.membersPopular__members--row img{
+  
+    width: 85%;
+    height: 93%;
+
+}
+  
+
+.membersPopular__members--desc > div{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+
+}
+
+
+.membersPopular__popularRow {
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+}
+
+
+.membersPopular__popularRow--number {
+  
+  margin: auto;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 26px;
+
+}
+/*
+-----------------------------------------------
+
+footer
+-----------------------------------------------
+*/
+
+footer ul{
+
+    margin-top: 70px;
+    width: 75%;
+
+}
+
+footer li{
+
+    padding: 0 0px 0 0px;
+
+}
+.footer__nav li {
+
+    display: inline;
+    font-size: 15px;
+
+}
+  
+.footer__nav a {
+
+    color: rgba(0, 0, 0, 0.54);
+    text-decoration: none;
+
+} 
